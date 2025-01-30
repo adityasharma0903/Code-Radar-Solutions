@@ -3,9 +3,9 @@
 
 
 int main() {
-    float num;
-    scanf("%f", &num);
-    printf("Hexadecimal: %x\n", num);
+    int num;
+    scanf("%d", &num);
+    printf("Hexadecimal: %X\n", num);
     printf("Octal: %o\n", num);
     return 0;
 }
