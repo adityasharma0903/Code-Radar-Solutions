@@ -3,7 +3,7 @@
 int main() {
     // printf("%s", welcome());
     char str[50];
-    scanf("%s", str);
-    printf("You enetered: %s", str);
+    scanf("%c", str);
+    printf("You enetered: %c", str);
     return 0;
 }
