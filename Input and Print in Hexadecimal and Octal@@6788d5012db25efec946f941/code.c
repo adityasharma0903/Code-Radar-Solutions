@@ -3,7 +3,7 @@
 
 
 int main() {
-    int toupper(int num);
+    int num;
     scanf("%d", &num);
     
     printf("Hexadecimal: %x\n", num);
