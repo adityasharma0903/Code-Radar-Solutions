@@ -2,7 +2,7 @@
 
 int main() {
     // printf("%s", welcome());
-    String str;
+    char str[50] ;
     scanf("%s", &str);
     printf("You enetered: %s",str);
     return 0;
