@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &a);
     scanf("%d", &b);
     result = a | b;
-    printf("\n",a|b);
+    printf("\n"result);
     return 0;
 }
