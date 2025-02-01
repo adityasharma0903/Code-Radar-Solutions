@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,b, result;
+    int a,b,result;
     scanf("%d", &a);
-    scanf("%d",&b);
-    result = a | b
-    printf(result);
+    scanf("%d", &b);
+    result = a | b;
+    printf("\n",result);
     return 0;
 }
