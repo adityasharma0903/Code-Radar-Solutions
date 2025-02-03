@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a,b;
-    int result = a << b;
+    int a,b,result;
+    result = a << b;
     scanf("%d",&a);
     scanf("%d", &b);
     printf("%d << %d = %d\n",result);
