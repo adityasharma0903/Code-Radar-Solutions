@@ -3,9 +3,10 @@
 
 int main() {
     int a,b,result;
-    result = a << b;
+    
     scanf("%d",&a);
     scanf("%d", &b);
+    result = a << b;
     printf("%d\n",result);
     return 0;
 }
