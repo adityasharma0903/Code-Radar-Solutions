@@ -6,6 +6,6 @@ int main() {
     result = a << b;
     scanf("%d",&a);
     scanf("%d", &b);
-    printf("%d << %d \n",result);
+    printf("%d\n",result);
     return 0;
 }
