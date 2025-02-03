@@ -4,9 +4,8 @@
 int main() {
     int a,b,result;
     result = a << b;
-
     scanf("%d",&a);
     scanf("%d", &b);
-    printf("%d",result);
+    printf("%d\n",result);
     return 0;
 }<<
