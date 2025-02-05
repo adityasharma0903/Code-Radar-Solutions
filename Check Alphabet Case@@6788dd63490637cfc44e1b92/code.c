@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char alpha, str;
-    str = toupper(alpha);
-    if (str == alpha){
+    char alpha;
+    char a = toupper(alpha);
+    if (a == alpha){
         printf("Uppercase");
     }else{
         printf("Lowercase");
