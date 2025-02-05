@@ -8,6 +8,8 @@ int main() {
         printf("Vowel");
     }else if(ch != 'a'||'i'||'e'||'o'||'u'){
         printf("Consonant");
+    }else if(ch == todigit(ch)){
+        printf("Digit");
     }
 
     return 0;
