@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d", &a);
-    for(a<i){
+    for(a<<){
         printf("Prime");
     }else{
         printf("Not Prime");
