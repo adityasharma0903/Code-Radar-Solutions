@@ -5,8 +5,8 @@ int main() {
     char c;
     scanf("%d", &a);
     scanf("%d", &b);
-    scanf("%c", &c);
-    if(c == "+"){
+    scanf(" %c", &c);
+    if(c == '+'){
         printf("%d", a+b);
     }
     else if(c == '-'){
