@@ -3,7 +3,7 @@
 int main() {
     char alpha;
     
-    if (alpha >= "A" && alpha <= "B"){
+    if (alpha >= "A" && alpha <= "Z"){
         printf("Uppercase");
     }else{
         printf("Lowercase");
