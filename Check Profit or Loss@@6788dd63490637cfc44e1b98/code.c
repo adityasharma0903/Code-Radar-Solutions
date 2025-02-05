@@ -7,8 +7,10 @@ int main() {
     scanf("%d", &sp);
     if((sp-cp)>cp){
         printf("Profit");
-    }else{
+    }else if((sp-cp)<cp){
         printf("Loss");
+    }else{
+        printf("No Profit No Loss");
     }
     return 0;
 }
