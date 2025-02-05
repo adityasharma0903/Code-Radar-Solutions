@@ -2,7 +2,7 @@
 
 int main() {
     char alpha;
-    char a = toupper(alpha);
+    
     if (alpha >= "A" && alpha <= "B"){
         printf("Uppercase");
     }else{
