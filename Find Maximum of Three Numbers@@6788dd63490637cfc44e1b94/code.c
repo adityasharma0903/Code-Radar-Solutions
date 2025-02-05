@@ -6,9 +6,9 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     if(a>c || a>b){
         printf("%d",a);
-    }else if(b>c || b>a){
+    }else if(b>c && b>a){
         printf("%d",b);
-    }else if(c>a || c>b){
+    }else{
         printf("%d",c);
     }
     return 0;
