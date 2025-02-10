@@ -25,6 +25,7 @@ int main() {
         case '/':
          if(b != 0){
             r = a/b ;
+            printf("%d\n", r);
          }else{
             printf("error\n");
          }       
