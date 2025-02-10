@@ -26,7 +26,7 @@ int main() {
          if(b != 0){
             r = a/b ;
          }else{
-            printf("error\n")
+            printf("error\n");
          }       
          break;
     }
