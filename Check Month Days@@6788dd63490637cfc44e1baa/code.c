@@ -2,8 +2,8 @@
 
 int main() {
     int month ,days;
-
-    if(scanf("%d", &month) > 12 || &month < 1){
+    scanf("%d", &month);
+    if(month < 1 || month > 12){
         printf("Invalid month");
     }
     switch(month){
